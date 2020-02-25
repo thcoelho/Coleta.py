@@ -28,7 +28,8 @@ class coleta:
         fim=date.today(),
         source="yahoo",
     ):
-    """ Retorna dicionário com informações das empresas presentes no índice IBOVESPA """
+        """ Retorna dicionário com informações das empresas presentes no índice IBOVESPA """
+
         tabelas_html = pd.read_html(url)
         df = tabelas_html[0]
         tickers = df["Ticket"]
