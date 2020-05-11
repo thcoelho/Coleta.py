@@ -2,7 +2,7 @@ import pandas as pd
 
 def Coletar_Fundamentos(Ticker):
     """
-    Coleta Indicadores fundamentalistas por leitura das tabelas hmtl do site
+    Coleta Indicadores fundamentalistas por leitura das tabelas html do site
     Fundamentus.
     
     Argumentos:
@@ -24,7 +24,7 @@ def Coletar_Fundamentos(Ticker):
 
 def Coletar_Balanço(Ticker):
     """
-    Coleta Balanço por leitura das tabelas hmtl do site
+    Coleta Balanço por leitura das tabelas html do site
     Fundamentus.
     
     Argumentos:
